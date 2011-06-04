@@ -146,7 +146,7 @@ Calendar::Japanese::Business - 実働日（営業日）カレンダー
       }
   );
 
-  # 16実働日 のTimpe::Pieceオブジェクトを取得
+  # 2011/5 の 16実働日 のTimpe::Pieceオブジェクトを取得
   $c->get_date_from_businessday(16); # => 2011/5/27
 
   # 2011/5/16 の実働日を取得
